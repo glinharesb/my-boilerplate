@@ -31,10 +31,10 @@ module.exports = {
             filename: "index.html",
         }),
         new MiniCssExtractPlugin(),
-        new BundleAnalyzerPlugin({
-            analyzerMode: 'static',
-            openAnalyzer: false,
-        }),
+        // new BundleAnalyzerPlugin({
+        //     analyzerMode: 'static',
+        //     openAnalyzer: false,
+        // }),
     ],
     module: {
         rules: [
